@@ -1,2 +1,17 @@
 server:
   port: 8085
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Cristian-Idarraga/Spring-Cloud.git
+          search-paths: config-data
+          username: ${GIT_USERNAME}
+          password: ${GIT_PASSWORD}
+
+  security:
+    user:
+      name: root
+      password: s3cret
