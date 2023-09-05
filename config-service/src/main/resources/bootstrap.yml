@@ -1,5 +1,5 @@
 server:
-  port: 8085
+  port: 8084
 
 spring:
   cloud:
@@ -14,4 +14,4 @@ spring:
   security:
     user:
       name: root
-      password: s3cret
+      password: ${SECURITY_PASSWORD}
