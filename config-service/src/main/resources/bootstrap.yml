@@ -1,5 +1,5 @@
 server:
-  port: 8084
+  port: 8083
 
 spring:
   cloud:
@@ -10,8 +10,7 @@ spring:
           search-paths: config-data
           username: ${GIT_USERNAME}
           password: ${GIT_PASSWORD}
-
   security:
     user:
       name: root
-      password: ${SECURITY_PASSWORD}
+      password: s3cr3t
