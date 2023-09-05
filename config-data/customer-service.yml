@@ -1,6 +1,6 @@
 spring:
   application:
-    name: project_cloud
+    name: customer-service
 
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/custumer-service?useLegacyDatetimeCode=false&serverTimezone=America/Bogota
