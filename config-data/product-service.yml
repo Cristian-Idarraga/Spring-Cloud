@@ -1,13 +1,11 @@
 spring:
   application:
     name: product-service
-
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/project_cloud?useLegacyDatetimeCode=false&serverTimezone=America/Bogota
     username: root
     password: "{Cristian;8"
     driver-class-name: com.mysql.cj.jdbc.Driver
-
   jpa:
     hibernate:
       ddl-auto: update
@@ -21,3 +19,8 @@ server:
   port: 8080
   error:
     include-message: always
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8084/eureka
