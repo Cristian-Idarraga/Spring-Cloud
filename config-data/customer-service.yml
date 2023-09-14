@@ -17,12 +17,10 @@ spring:
       mode: always
 
 server:
-  servlet:
-    context-path: /api
   port: 8081
   error:
     include-message: always
-    
+
 eureka:
   client:
     serviceUrl:

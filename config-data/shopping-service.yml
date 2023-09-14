@@ -17,8 +17,6 @@ spring:
       mode: always
 
 server:
-  servlet:
-    context-path: /api
   port: 8082
   error:
     include-message: always
