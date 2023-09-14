@@ -18,8 +18,8 @@ import java.util.List;
 
 @Slf4j
 @RestController
-@RequestMapping(value = "/invoices")
 @RequiredArgsConstructor
+@RequestMapping(value = "/invoices")
 public class InvoiceController {
 
     private final InvoiceService invoiceService;
